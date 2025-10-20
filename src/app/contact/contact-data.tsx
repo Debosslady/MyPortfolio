@@ -1,13 +1,15 @@
+"use client";
 import { MapPin, Mail, Phone } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section className="py-20 px-6 md:px-20 bg-gray-50">
+    <section className="pt-28 pb64  px-6 md:px-20 bg-gray-50">
       <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-md p-10 grid md:grid-cols-2 gap-10">
-        <div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Let’s discuss your Project</h2>
+        <div> 
+          <h2 className="text-3xl md:text-4xl font-bold pb-5 text-gray-900 mb-4">Contact Me</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Let&rsquo;s discuss your Project</h2>
           <p className="text-gray-600 mb-8">
-            I’m available for freelance work. Drop a line if you have a project in mind or want to collaborate.
+            I&rsquo;m available for freelance work. Drop a line if you have a project in mind or want to collaborate.
           </p>
 
           <ul className="space-y-4 text-gray-700">
@@ -17,11 +19,11 @@ export default function Contact() {
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-purple-600" />
-              <span>myemail@gmail.com</span>
+              <span className="py-5">millerhelenu@gmail.com</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-purple-600" />
-              <span>+234 80 0000 0000</span>
+              <span>+234 90 2708 8714</span>
             </li>
           </ul>
 

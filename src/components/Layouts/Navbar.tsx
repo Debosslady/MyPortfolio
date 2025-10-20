@@ -2,9 +2,10 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { NavItem } from "@/hooks/types";
+import Link from "next/link";
 
 const navItems: NavItem[] = [
-  { label: "Home", href: "#home" },
+  { label: "Home", href: "/" },
   { label: "About", href: "about" },
   { label: "Process", href: "process" },
   { label: "Portfolio", href: "portfolio" },
@@ -17,7 +18,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-6xl mx-auto md:px-0 px-6 py-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-purple-900">SoftwareQueen</h1>
 
         {/* Desktop Menu */}
@@ -30,12 +31,12 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <a
-              href="#contact"
+            <Link
+              href="/contact"
               className="bg-purple-900 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -63,12 +64,12 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <a
-              href="#contact"
+            <Link
+              href="/contact"
               className="bg-purple-900 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       )}

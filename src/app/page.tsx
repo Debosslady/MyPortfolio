@@ -30,7 +30,7 @@ export default function Home() {
         < ServiceData/>
         < Blog/>
         <WhatIDo/>
-        <Clients/>
+        {/* <Clients/> */}
         <Testimony/>
         <Contact/>
       </div>

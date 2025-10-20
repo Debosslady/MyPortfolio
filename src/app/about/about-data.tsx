@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -8,7 +9,7 @@ export default function About() {
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-[300px] h-[300px] md:w-[380px] md:h-[380px] rounded-3xl overflow-hidden shadow-xl">
             <Image
-              src="/assets/images/profile3.jpg"
+              src="/assets/images/profile4.jpg"
               alt="Helen Miller - Software Developer"
               fill
               className="object-cover"
@@ -40,12 +41,12 @@ export default function About() {
             they dream of through technology.
           </p>
 
-          <a
-            href="#contact"
+          <Link
+            href="contact"
             className="inline-block px-6 py-3 bg-purple-900 text-white font-semibold rounded-lg shadow hover:bg-purple-700 transition duration-300"
           >
             Let&rsquo;s Connect
-          </a>
+          </Link>
         </div>
       </div>
     </section>

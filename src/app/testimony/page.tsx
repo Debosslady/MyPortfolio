@@ -3,7 +3,7 @@ import { Metadata } from "next"
 import Testimony from "./testimony-data"
 
 export const metadata: Metadata = {
-  title: 'About | SoftwareQueen',
+  title: 'Testimonies | SoftwareQueen',
   description: 'Welcome to Helen Portfolio',
 }
 

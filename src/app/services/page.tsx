@@ -3,8 +3,8 @@ import { Metadata } from "next"
 import ServiceData from "./service-data"
 
 export const metadata: Metadata = {
-  title: 'About | SoftwareQueen',
-  description: 'Welcome to Helen Portfolio',
+  title: 'Services| SoftwareQueen',
+  description: 'Welcome to SoftwareQueen Services',
 }
 
 export default function ServicePage() {

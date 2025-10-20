@@ -1,13 +1,13 @@
 import GuestLayout from "@/components/Layouts/GuestLayout"
-import { Metadata } from "next" 
-import { Contact } from "lucide-react"
+import { Metadata } from "next"  
+import Contact from "./contact-data"
 
 export const metadata: Metadata = {
-  title: 'About | SoftwareQueen',
-  description: 'Welcome to Helen Portfolio',
+  title: 'Contact | SoftwareQueen',
+  description: 'Welcome to SoftwareQueen Portfolio Contact',
 }
 
-export default function AboutPage() {
+export default function ContactPage() {
   return (
     <GuestLayout >
       <div className="w-full"> 

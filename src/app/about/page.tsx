@@ -4,7 +4,7 @@ import About from "./about-data"
 
 export const metadata: Metadata = {
   title: 'About | SoftwareQueen',
-  description: 'Welcome to Helen Portfolio',
+  description: 'Welcome to SoftwareQueen About Portfolio',
 }
 
 export default function AboutPage() {

@@ -3,8 +3,8 @@ import { Metadata } from "next"
 import Blog from "./blog-data"
 
 export const metadata: Metadata = {
-  title: 'About | SoftwareQueen',
-  description: 'Welcome to Helen Portfolio',
+  title: 'Blog | SoftwareQueen',
+  description: 'Welcome to SoftwareQueen Portfolio Blog',
 }
 
 export default function BlogPage() {

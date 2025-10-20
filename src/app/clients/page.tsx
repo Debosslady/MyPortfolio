@@ -3,8 +3,8 @@ import { Metadata } from "next"
 import Clients from "./client-data"
 
 export const metadata: Metadata = {
-  title: 'About | SoftwareQueen',
-  description: 'Welcome to Helen Portfolio',
+  title: 'Client | SoftwareQueen',
+  description: 'Welcome to SoftwareQueen Portfolio Clients',
 }
 
 export default function ClientsPage() {

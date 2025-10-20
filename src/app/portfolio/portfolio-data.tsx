@@ -43,9 +43,9 @@ export default function Portfolio() {
                 {project.category}
               </p>
               <h3 className="text-lg font-bold text-gray-800 mt-1">{project.title}</h3>
-              <button className="mt-3 px-4 py-2 bg-purple-900 text-white rounded-md hover:bg-purple-700 transition">
+              {/* <button className="mt-3 px-4 py-2 bg-purple-900 text-white rounded-md hover:bg-purple-700 transition">
                 View Project →
-              </button>
+              </button> */}
             </div>
           </div>
         ))}

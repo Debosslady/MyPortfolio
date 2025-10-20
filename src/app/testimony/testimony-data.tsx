@@ -13,8 +13,8 @@ export default function Testimony() {
         Highly recommended!”
       </blockquote>
 
-      <p className="mt-6 font-semibold text-gray-900">Esther Howard</p>
-      <p className="text-sm text-gray-500">Manager @ Example Inc.</p>
+      <p className="mt-6 font-semibold text-gray-900">Bright Aleru</p>
+      <p className="text-sm text-gray-500">Manager @ Eduramaisoft Techonlogies Limited</p>
     </section>
   );
 }

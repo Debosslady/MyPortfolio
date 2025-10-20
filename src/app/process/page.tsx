@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Welcome to Helen Portfolio',
 }
 
-export default function Process() {
+export default function ProcessPage() {
   return (
     <GuestLayout >
       <div className="w-full"> 
