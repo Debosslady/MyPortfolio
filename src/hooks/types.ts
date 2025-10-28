@@ -7,7 +7,9 @@ export interface NavItem {
   href: string;
 }
 
-// export interface StatItem {
-//   value: string;
-//   label: string;
-// }
+export interface ContactForm {
+  name: string;
+  email: string;
+  subject?: string;
+  message: string;
+}
